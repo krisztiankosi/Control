@@ -1,4 +1,4 @@
-# Control
+# NonLinear Control Examples and Documents
 
 Simulations for Non-linear control, using Julia
 
