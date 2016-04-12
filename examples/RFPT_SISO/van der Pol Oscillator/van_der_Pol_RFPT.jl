@@ -85,7 +85,7 @@ mₐ=0.8
 # Exact Model #
 ###############
 function Exact(u,q,q_p)
-  q_pp=(u+μₐ*(1-q^2)*q_p-ωₐ^2*q-αₐ*q^3-λₐ^5)/mₑ
+  q_pp=(u+μₑ*(1-q^2)*q_p-ωₑ^2*q-αₑ*q^3-λₑ^5)/mₑ
   return q_pp
 end
 
